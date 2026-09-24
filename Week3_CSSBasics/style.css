@@ -1,0 +1,106 @@
+body {
+    color: #fff;
+    font-family: "consolos", sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 2.6;
+    background-color: #1D1D1D;
+
+}
+
+header {
+    background-color: #3f3f3f;
+    color: #fff;
+    font-family: "press Start 2P", "consolos", sans-serif;
+    font-weight: lighter;
+    padding: 20px;
+    text-align: center;
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+
+}
+
+main {
+    padding: 20px;
+
+}
+section {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #1D1D1D;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.8);
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+input, textarea, button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border:1px solid #fcfafa;
+    border-radius: 20px;
+    corner-shape: squircle;
+}
+
+button {
+    background-color: #32e509 ;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #64f83f;
+
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+
+
+@media (max-width: 768px) {
+    header, footer {
+        text-align: left;
+        padding: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+
+    }
+
+}
+
